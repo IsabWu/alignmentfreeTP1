@@ -35,7 +35,7 @@ def jaccard(completeA, completeB, k):
 
 if __name__ == "__main__":
     # Load all the files in a dictionary
-    files = load_directory("data")
+    files = load_directory("/Users/brenda/Mi unidad (brenda.er.0203@gmail.com)/Sorbonne/Phyg/tme5_bren/data/")
     k = 21
     letters = ['A', 'C', 'T', 'G']
     filenames = list(files.keys())
